@@ -1,14 +1,16 @@
 {
   "name": "portfolio-3d",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Mon premier site avec de la 3D",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "next dev -H 0.0.0.0",
+    "build": "next build",
+    "prettier": "prettier -write .",
+    "lint": "next lint"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Omowumi OLABISI",
+  "license": "",
   "dependencies": {
     "@chakra-ui/react": "^2.8.2",
     "@emotion/react": "^11.11.4",
